@@ -7,7 +7,7 @@ bot = commands.Bot(command_prefix='!')
 @bot.command()
 @commands.is_owner()
 async def post(ctx):
-    r = await dbipyt.post(token="your-token-here", guild_count=len(bot.guilds))
+    r = await dbipyt.post(token="your-token-here", bot_id="bot-id-here", guild_count=len(bot.guilds))
     await ctx.send(f"Posted! Reponse: {r}")
     
 @bot.command()
