@@ -10,7 +10,9 @@ This project is made for **Python**!
 ### How do I use this?
 
 > Run this command in your console:
-```pip install dbipyt```
+```
+pip install dbipyt
+```
 
 > To post your bot's guild count:
 ```
