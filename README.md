@@ -1,5 +1,5 @@
 ## Discord Bot Index API Wrapper 🎉
-API Wrapper for [Discord Bot Index](https://discordbotindex.com) [DBI]
+API Wrapper for [Discord Bot Index](https://discordbotindex.com)
 
 This project is made for **Python**!
 
