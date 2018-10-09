@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from dbipyt import fetch, post
+from dbipyt import dbipyt
 
 bot = commands.Bot(command_prefix='!')
 
