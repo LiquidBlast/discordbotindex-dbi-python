@@ -1,0 +1,18 @@
+Name: colorthief
+Summary: This module is an API Wrapper for Discord Bot Index.
+Version: 0.0.1
+Author: Luke J
+Author-email: itsnotluke@outlook.com
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Requires-Dist: AIOHTTP
+
+DBIPY
+-----------
+
+
+This module is an API Wrapper for Discord Bot Index.
+
+`````
+
+* `github-repo <https://github.com/paixlukee/DBI-Python>`_
