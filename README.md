@@ -15,14 +15,14 @@ pip install dbipyt
 
 > To post your bot's guild count:
 ```
-from dbipyt import post
+from dbipyt import dbipyt
 
 await dbipyt.dbipyt.post(token="your-token-here", bot_id="bot-id-here", guild_count=len(bot.guilds))
 ```
 
 > To fetch bot information:
 ```
-from dbipyt import fetch
+from dbipyt import dbipyt
 
 r = await dbipyt.dbipyt.fetch(bot_id="bot-id-here")
 print(r) # This will print out the JSON response. Ex. r['prefix'] will return the bot's prefix
