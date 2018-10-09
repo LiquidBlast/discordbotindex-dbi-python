@@ -29,3 +29,4 @@ print(r) # This will print out the JSON response. Ex. r['prefix'] will return th
 ```
 
 
+For questions and concerns, submit an issue, or contact me on Discord: `lukee#0420`
