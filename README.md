@@ -1,2 +1,4 @@
-# DBI-Python
-[PYTHON] API Wrapper for DBI (https://discordbotindex.com)
+## Discord Bot Index API Wrapper 🎉
+API Wrapper for [Discord Bot Index](https://discordbotindex.com) (DBI)
+
+info coming soon
