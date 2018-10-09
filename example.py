@@ -14,6 +14,7 @@ async def post(ctx):
 async def botinfo(ctx, bot_id):
     r = await dbipyt.fetch(bot_id=bot_id)
     await ctx.send(f"Prefix: {r['prefix']}, Description: {r['shortdesc']}, Upvotes: {r['upvotes']}")
+    # https://discordbotindex.com/documentation
 
 
 bot.run('token')
