@@ -17,7 +17,7 @@ pip install dbipyt
 ```
 from dbipyt import post
 
-await dbipyt.post(token="your-token-here", guild_count=len(bot.guilds))
+await dbipyt.post(token="your-token-here", bot_id="bot-id-here", guild_count=len(bot.guilds))
 ```
 
 > To fetch bot information:
