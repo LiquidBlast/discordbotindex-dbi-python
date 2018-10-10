@@ -1,6 +1,7 @@
 from distutils.core import setup
 setup(
   name = 'dblpyt',
+folder (dblpyt)
   packages = ['dblpyt'],
   version = '0.0.1',
   license= 'MIT',
