@@ -8,7 +8,7 @@ setup(
   author = 'Luke J',
   author_email = 'itsnotluke@outlook.com',
   url = 'https://github.com/paixlukee/DBI-Python',
-  download_url = 'https://github.com/paixlukee/DBI-Python/archive/v_01.tar.gz',
+  download_url = 'https://github.com/paixlukee/DBI-Python/archive/v_0.01.tar.gz',
   keywords = ['apiwrapper', 'dbi', 'discordbotindex'],
   install_requires=[
           'aiohttp'
