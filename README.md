@@ -10,7 +10,7 @@ API Wrapper for [Discord Bot Index](https://discordbotindex.com)
 
 > Run this command in your console:
 ```
-pip install dbipyt
+pip3 install dbipyt
 ```
 
 > To post your bot's guild count:
