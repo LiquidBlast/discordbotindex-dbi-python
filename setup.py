@@ -1,8 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'dblpyt',
-folder (dblpyt)
-  packages = ['dblpyt'],
+  name = 'dbipyt',
+  packages = ['dbipyt'],
   version = '0.0.1',
   license= 'MIT',
   description = 'API Wrapper for Discord Bot Index',
