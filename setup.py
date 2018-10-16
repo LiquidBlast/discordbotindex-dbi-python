@@ -2,9 +2,9 @@ from distutils.core import setup
 setup(
   name = 'dbipyt',
   packages = ['dbipyt'],
-  version = '0.0.1',
+  version = '0.1.1',
   license= 'MIT',
-  description = 'API Wrapper for Discord Bot Index',
+  description = 'API Wrapper for Discord Bot Index [GUILD COUNT POSTING, BOT INFO SEARCH]',
   author = 'Luke J',
   author_email = 'itsnotluke@outlook.com',
   url = 'https://github.com/paixlukee/DBI-Python',
