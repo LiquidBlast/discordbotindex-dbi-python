@@ -9,7 +9,8 @@ class Client:
             async with s.post(f"https://discordbotindex.com/apiv1/bot/{bot_id}", data={'server_count': guild_count}) as r:
                 r = await r.json()
                 return r
-
+class Fetch:
+	
     async def fetch(bot_id, endpoint:str=None):
         async with aiohttp.ClientSession() as s:
             async with s.get(f"https://discordbotindex.com/apiv1/bot/{bot_id}") as r:
