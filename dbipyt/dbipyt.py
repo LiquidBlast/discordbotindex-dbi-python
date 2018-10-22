@@ -3,7 +3,7 @@ import json
 
 class Client:
     def __init__(self, token):
-		self.auth = token
+	self.auth = token
 
     async def post(bot_id, guild_count):
         async with aiohttp.ClientSession(headers={'Authorization': self.auth}) as s:
