@@ -11,7 +11,8 @@ setup(
   download_url = 'https://github.com/paixlukee/DBI-Python/archive/v_0.01.tar.gz',
   keywords = ['apiwrapper', 'dbi', 'discordbotindex'],
   install_requires=[
-          'aiohttp'
+          'aiohttp',
+          'json'
       ],
   classifiers=[
     'Development Status :: Beta',
