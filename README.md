@@ -1,7 +1,7 @@
 ## Python Discord Bot Index API Wrapper 🎉
 API Wrapper for [Discord Bot Index](https://discordbotindex.com)
 
-Current Version: **0.1.1**
+Current Version: **0.1.2**
 
 ### What does this wrapper do?
 - Posts bot `GUILD_COUNT` to DBI.
