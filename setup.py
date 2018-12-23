@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'dbipyt',
   packages = ['dbipyt'],
-  version = '0.1.2',
+  version = '0.1.3',
   license= 'MIT',
   description = 'API Wrapper for Discord Bot Index [GUILD COUNT POSTING, BOT INFO SEARCH]',
   author = 'Luke J',
