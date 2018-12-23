@@ -1,3 +1,4 @@
+[![PyPI version](https://badge.fury.io/py/dbipyt.svg)](https://badge.fury.io/py/dbipyt)
 ## Python Discord Bot Index API Wrapper 🎉
 API Wrapper for [Discord Bot Index](https://discordbotindex.com)
 
