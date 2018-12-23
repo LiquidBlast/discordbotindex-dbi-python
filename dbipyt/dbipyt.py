@@ -20,9 +20,9 @@ async def fetch(bot_id, endpoint:str=None):
                 try:
                     return r
                 except:
-                    return "[dbipyt.0.1.1] Invalid client ID. Please provide a client ID with the bot_id argument."
+                    return "[dbipyt.0.1.2] Invalid client ID. Please provide a client ID with the bot_id argument."
             else:
                 try:
                     return r[endpoint]
                 except KeyError as e:
-                    return f"[dbipyt.0.1.1] Invalid endpoint: {e}"
+                    return f"[dbipyt.0.1.2] Invalid endpoint: {e}"
