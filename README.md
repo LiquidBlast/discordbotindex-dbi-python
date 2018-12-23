@@ -17,14 +17,16 @@ $ pip3 install dbipyt
 > To post your bot's guild count:
 ```py
 from dbipyt import dbipyt
-await dbipyt.dbipyt.post(token="your-token-here", bot_id="bot-id-here", guild_count=len(bot.guilds))
+client = dbipyt.Client(token='token')
+p = await client.post(bot_id='id', guild_count=len(bot.guilds))
+print(p)
 ```
 
 > To fetch bot information:
 ```py
 from dbipyt import dbipyt
-r = await dbipyt.dbipyt.fetch(bot_id="bot-id-here")
-print(r) # This will print out the JSON response. Ex. r['prefix'] will return the bot's prefix
+p = await dbipyt.fetch(bot_id='id', endpoint='endpoint') # if you wish to get the JSON response, do not add the endpoint argument
+print(p)
 ```
 
 For questions and concerns, submit an issue, or contact me on Discord: `lukee#0420`
