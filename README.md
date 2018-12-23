@@ -14,9 +14,13 @@ Current Version: **0.1.2**
 $ pip3 install dbipyt
 ```
 
-> To post your bot's guild count:
+> Import the DBIPyt Module:
 ```py
 from dbipyt import dbipyt
+```
+
+> To post your bot's guild count:
+```py
 client = dbipyt.Client(token='token')
 p = await client.post(bot_id='id', guild_count=len(bot.guilds))
 print(p)
@@ -24,7 +28,6 @@ print(p)
 
 > To fetch bot information:
 ```py
-from dbipyt import dbipyt
 p = await dbipyt.fetch(bot_id='id', endpoint='endpoint') # if you wish to get the JSON response, do not add the endpoint argument
 print(p)
 ```
